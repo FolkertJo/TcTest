@@ -26,4 +26,4 @@ steps:
     repository: 'vuejs-cookbook'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
-    tags: '1.0.$(Build.BuildId)'
+    tags: 'latest'
