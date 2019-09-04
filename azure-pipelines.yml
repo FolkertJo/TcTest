@@ -22,5 +22,7 @@ steps:
 
 - task: Docker@2
   inputs:
+    containerRegistry: 'Azure VW Stock Registry'
+    repository: 'vuejs-cookbook'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
